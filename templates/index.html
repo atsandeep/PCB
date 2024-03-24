@@ -1,0 +1,45 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Builder</title>
+</head>
+<body>
+    <h1>Welcome to PC Builder</h1>
+    <form action="/build_pc" method="post">
+        <label for="budget">Budget (₹):</label>
+        <input type="number" id="budget" name="budget" required><br><br>
+
+        <label for="usage">Usage:</label>
+        <input type="text" id="usage" name="usage" required><br><br>
+
+        <label for="storage">Large Storage Needed?</label>
+        <select id="storage" name="storage" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br>
+
+        <label for="storage_type">Storage Type:</label>
+        <select id="storage_type" name="storage_type" required>
+            <option value="ssd">SSD</option>
+            <option value="hdd">HDD</option>
+        </select><br><br>
+
+        <label for="graphics_card">Dedicated Graphics Card Needed?</label>
+        <select id="graphics_card" name="graphics_card" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br>
+
+        <label for="processor_preference">Processor Preference:</label>
+        <select id="processor_preference" name="processor_preference" required>
+            <option value="intel">Intel</option>
+            <option value="amd">AMD</option>
+        </select><br><br>
+
+        <button type="submit">Build PC</button>
+    </form>
+</body>
+</html>
