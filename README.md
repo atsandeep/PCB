@@ -1,2 +1,2 @@
-# PCB is a personal computer building website which enables users to build pc wiht the user wished budget and specs according to it. 
+# PCB is a personal computer building website which enables users to build pc with the user wished budget and specs according to it. 
 PCB is built in python for its backend and html which is split into two category index and result for webpage/ frontend.PCB was originally born with the idea of creating an awarness to people about the desktop specs and its benchmarks which should be known to every pc users.
